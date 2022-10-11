@@ -22,7 +22,7 @@ while(True):
     if response == 1:
         myfile = input("\nEnter data filename: ")
         weather = read_data(filename=myfile)
-        print(weather)
+        # print(weather)
     elif response == 2:
         dt = input("\nEnter date (YYYYMMDD): ")
         tm = input("Enter time (hhmmss): ")
